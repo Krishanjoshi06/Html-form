@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>test</title>
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.theme.default.min.css">
+       <!-- javascript -->
+    <script src="../assets/vendors/jquery.min.js"></script>
+    <script src="../assets/owlcarousel/owl.carousel.js"></script>
+</head>
+<body>
+   <ul class="top_bar owl-carousel owl-theme"> 
+    <li> Get FREE GROUND SHIPPING on Orders of $99+ (Promo Code: xxxxxxx) expires on 09/10/2023 11.59PM EST </li>
+    <li> LABOR DAY SALE! Get 15% OFF Orders of $99+ (Promo Code: xxxxxxx) expires on 09/10/2023 11.59PM EST </li>
+    <li> Get FREE GROUND SHIPPING on Orders of $99+ (Promo Code: xxxxxxx) expires on 09/10/2023 11.59PM EST </li>
+   </ul>
+
+    <!-- vendors -->
+ 
+   <script>
+       $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+   </script>
+
+      <script src="../assets/vendors/highlight.js"></script>
+    <script src="../assets/js/app.js"></script>
+</body>
+</html>
